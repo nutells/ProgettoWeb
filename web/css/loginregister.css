@@ -1,0 +1,49 @@
+#returnlogin{
+	background-color:#ddd;
+	border: 0px;
+	border-bottom:2px solid #ddd;
+	color:#666;
+	font-size:16px;
+	border-radius:2px;
+	height:28px;
+}
+#returnlogin:hover{
+	background-color:#eee;
+	border-bottom: 2px solid #aaa;
+	border-radius:2px;
+}
+.campiloginregister{
+	 margin:5px;
+	 width:229px;
+	 color:#999;
+	 margin-top:0px;
+}
+
+.erroreloginregister{
+	position:absolute;
+	margin-top:3px;
+	margin-left:217px;
+	background-image:url(../image/error.png);
+	width:23px;
+	height:23px;
+	display:none; 
+}
+#trianglelogin{
+	width: 0;
+	height: 0;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 10px solid #fff;
+	position:absolute;
+	margin-top:-10px;
+	margin-left:175px;
+}
+#comparsa{
+	display: none;
+	width:250px; position:absolute;
+	margin-left:330px;left: 50%;
+	top:40px;
+	z-index:1000;
+	border:0px;
+        height: 0px;
+}

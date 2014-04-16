@@ -1,0 +1,31 @@
+.nomecamporicerca{
+	float:left;
+	width:120px;
+	font-weight: bold;	
+}
+#zoneselezionate{
+	width:270px;
+	height:120px;
+	margin-left:120px;
+	overflow:auto;
+	border: 1px solid #999;
+}
+.labelcamere{
+	height:20px;
+	line-height:20px;
+	width:150px;
+}
+
+.numerocamerebutton{
+	height:25px; width:25px; text-align:center; line-height:20px;
+}
+.numerocamere{
+	text-align:center; width:30px; height:25px
+}
+.campiricerca{
+	margin-left:120px; width:300px;
+}
+
+.divzona:hover{
+	
+	background-color:#EDF3F6;}

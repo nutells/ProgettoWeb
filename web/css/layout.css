@@ -1,0 +1,185 @@
+@media only screen and (min-width: 1195px){
+body {
+	font-family: Arial, Verdana, Helvetica, sans-serif !important;
+	font-size:15px;
+	background-color: #e9eaed;
+	background-position: center top;
+    background-repeat: repeat-x;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	
+}
+.backgroundcolor{
+	background-color: #38789d;
+}
+/* ~~ titlebar ~~ */
+.titlebar{
+	width: 100%;
+	background-color: #38789d;
+}
+.titlebarlimited {
+	height: 65px;
+	margin: 0 auto;
+	width: 1160px;
+}
+.logopage{
+	height: 85px;
+	padding-right:30px;
+	background-color: #38789d;
+	float: left;
+	position:absolute;
+	z-index:999;
+	border-radius: 0 0 2px 2px;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none;
+	letter-spacing: 1px;
+	line-height:85px;
+	color:white;
+}
+.menu{
+	height: 38px;
+	float: right;
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+	letter-spacing: 1px;
+	list-style: none;
+	color: white;
+}
+#titlebutton{
+	float: left;
+	padding: 0 20px;
+	height:100%;
+	line-height:37px;
+}
+#titlebutton:hover { 
+	background-color:#5d90aa;
+}
+
+#loginbutton{
+	height: 35px;
+	float: left;
+	padding: 0 20px;
+	background-color:#39801a;
+	line-height:25px;
+	box-shadow: 0 1px 2px 0 #000;
+	border-bottom: 3px solid #336c1b;
+	text-align: center;
+
+}
+#loginbutton:hover { 
+	background-color:#549537;
+	border-bottom: 3px solid #39801a;
+}
+.selectmenu{
+	display:none;
+}
+/* ~~ corpo ~~ */
+.container {
+	width: 1160px;
+	margin: 0 auto;
+}
+/* ~~ macroblocchi ~~ */
+.sidebar {
+	float: right;
+	width: 25%;
+}
+.content {
+	width: 72%;
+	float: left;
+	margin-bottom: 35px;
+}
+/* ~~ blocchi ~~ */
+.block{
+	background-color: #FFF;
+	border-bottom: 5px solid #38789d;
+	border-top: 3px solid #38789d;
+	width: 100%;
+	border-radius: 3px;
+	box-shadow: 0 1px 2px 0 #000;
+	margin-top: 20px;
+}
+.blocktitle{
+	height:30px;
+	line-height:27px;
+	width: 100%;
+	margin-top: 0px;
+	color: #fff;
+	font-size:15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.circleicons
+{
+	height: 45px;
+	width: 45px;
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	margin-left: 5px;
+	margin-top: -9px;
+	text-align: center;
+	box-shadow: 0 1px 2px 0 #000;
+}
+.blocktitlesidebar{
+	height:30px;
+	line-height:27px;
+	width: 100%;
+	margin-top: 0px;
+	color: #fff;
+	font-size:15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	background-color:#38789d;
+	border-radius:2px;
+	box-shadow: 0 1px 2px 0 #000;
+}
+.search{
+	
+}
+.inevidenza{
+}
+.login{
+}
+/* ~~ Il piè di pagina ~~ */
+.footer{
+	height: 80px;
+	width: 100%;
+	clear: both;
+	box-shadow: 0px 0px 16px #000;
+	background-color: #fff;
+	background-position: center top;
+    background-repeat: repeat-x;
+}
+.footerlimited {
+	height: 70px;
+	margin: 0 auto;
+	width: 1160px;
+	text-align: center;
+	padding-top: 10px;
+}
+}
+.button{
+	background-color:#38789d;
+	border: 0px;
+	border-bottom:2px solid #38789d;
+	color:white;
+	font-size:16px;
+	border-radius:2px;
+	height:28px;
+}
+.button:hover{
+	background-color:#4e8bae;
+	border-bottom:2px solid #265977;
+	border-radius:2px;
+}
+.input{
+	border:1px solid #999;
+	border-radius:2px;
+	font-family: Helvetica, Arial, 'lucida grande',tahoma,verdana,arial,sans-serif;
+	font-size:15px;
+	padding:4px;
+}
